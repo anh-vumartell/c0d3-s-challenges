@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS0 challeng 1</title>
+</head>
+<body>
+    <input type="text" class="input1">
+    <input type="text" class="input2">
+    <button type="button" class="submit1">Submit</button>
+    <script>
+        const inputButton = document.querySelector('.submit1')
+        const firstInput = document.querySelector('.input1')
+        const secondInput = document.querySelector('.input2')
+        inputButton.onclick = () =>{
+            firstVal = +firstInput.value 
+            secondVal = +secondInput.value 
+            alert(firstVal + secondVal)
+        }
+    </script>
+</body>
+</html>
