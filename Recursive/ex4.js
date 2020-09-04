@@ -17,4 +17,3 @@ const fizzbuzz = (num, i=1) =>{ //num as input number, i as counter keeping trac
     
 }
 
-fizzbuzz(30)
