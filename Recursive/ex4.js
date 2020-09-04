@@ -1,16 +1,16 @@
 const fizzbuzz = (num, i=1) =>{ //num as input number, i as counter keeping track of iteration
     if(i > num){
         return null
-    }
-    let val = i
+    }  
+    let val = i // initiate a temporary variable, intial value = i
     if(i%3 === 0){
         val = "fizz"
     }
     if(i%5 === 0){
-        val ="buzz"
+        val = "buzz"
     } 
     if(i%3 === 0 && i%5 === 0){
-        val ="fizzbuzz"
+        val = "fizzbuzz"
     }
     console.log(val)
     return fizzbuzz(num, i+1)
